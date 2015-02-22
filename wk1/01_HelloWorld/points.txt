@@ -1,5 +1,0 @@
-foo
-bar
-bash
-1
-2
