@@ -24,6 +24,5 @@ run-test:
 	@echo "1" > tmc_available_points.txt
 	
 get-points:
-	@echo "1" > points.txt
-	@echo "1" > tmc_available_points.txt
+	@echo "1"
 	
