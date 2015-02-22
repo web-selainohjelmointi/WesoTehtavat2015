@@ -10,6 +10,7 @@ main:
 	# @echo "1" > tmc_available_points.txt
 	
 test:
+	@echo "1"
 	# @echo "1" > tmc_available_points.txt
 
 clean:
@@ -21,7 +22,7 @@ run-main:
 	
 run-test:
 	#@echo "1" > points.txt
-	@echo "1" > tmc_available_points.txt
+	@echo "1"
 	
 get-points:
 	@echo "foo\nbar\nbash\n1\n2\n"
