@@ -10,7 +10,6 @@ main:
 	# @echo "1" > tmc_available_points.txt
 	
 test:
-        @echo "1"
 	# @echo "1" > tmc_available_points.txt
 clean:
 	rm -f tmc_available_points.txt points.txt
