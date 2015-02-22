@@ -6,18 +6,12 @@ TEST_DIR = test
 all: main test
 
 main:
-	# @echo "1" > points.txt
-	# @echo "1" > tmc_available_points.txt
 	
 test:
-#	@echo "1"
-	# @echo "1" > tmc_available_points.txt
 
 clean:
-	# rm -f tmc_available_points.txt points.txt
 
 run-main:
-	#@echo "1" > points.txt
 	
 run-test:
 	@echo "[{\"methodName\":\"genericTest\",\"pointNames\": [\"1\", \"2\"], \"status\": \"PASSED\", \"message\": \"\"}]" > test_output.txt
