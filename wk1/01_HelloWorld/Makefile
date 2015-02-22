@@ -10,7 +10,7 @@ main:
 	# @echo "1" > tmc_available_points.txt
 	
 test:
-	@echo "1"
+#	@echo "1"
 	# @echo "1" > tmc_available_points.txt
 
 clean:
@@ -20,7 +20,7 @@ run-main:
 	#@echo "1" > points.txt
 	
 run-test:
-	@echo "test perse 1\n" > test/tmc_available_points.txt
+	@echo "[{\"methodName\":\"genericTest\",\"pointNames\": [\"1\", \"2\"], \"status\": \"PASSED\", \"message\": \"\"}]" > test_output.txt
 	
 get-points:
 	@echo "foo\nbar\nbash\n1\n2\n"
