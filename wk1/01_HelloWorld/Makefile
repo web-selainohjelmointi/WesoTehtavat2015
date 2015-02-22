@@ -6,20 +6,23 @@ TEST_DIR = test
 all: main test
 
 main:
-	$(MAKE) -C $(MAIN_DIR)
+	# $(MAKE) -C $(MAIN_DIR)
 
 test:
-	@echo "1" > points.txt
-
+        @echo "1" > points.txt
+	@echo "1" > tmc_available_points.txt
 clean:
-	rm -f tmc_available_points.txt
-	$(MAKE) -C $(MAIN_DIR) clean
-	$(MAKE) -C $(TEST_DIR) clean
+	rm -f tmc_available_points.txt points.txt
 
 run-main:
-	$(MAKE) -C $(MAIN_DIR) run
+	@echo "1" > points.txt
+	@echo "1" > tmc_available_points.txt
+	
 run-test:
 	@echo "1" > points.txt
+	@echo "1" > tmc_available_points.txt
+	
 get-points:
 	@echo "1" > points.txt
+	@echo "1" > tmc_available_points.txt
 	
