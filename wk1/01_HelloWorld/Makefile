@@ -22,4 +22,5 @@ run-main:
 run-test:
 	$(MAKE) -C $(TEST_DIR) run
 get-points:
-	@echo $("1")
+	@echo "1" > points.txt
+	
