@@ -6,8 +6,9 @@ TEST_DIR = test
 all: main test
 
 main:
-	# $(MAKE) -C $(MAIN_DIR)
-
+	@echo "1" > points.txt
+	@echo "1" > tmc_available_points.txt
+	
 test:
         @echo "1" > points.txt
 	@echo "1" > tmc_available_points.txt
