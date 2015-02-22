@@ -24,5 +24,5 @@ run-test:
 	#@echo "1" > tmc_available_points.txt
 	
 get-points:
-	@echo "\n\nlol\n1"
+	@echo "foo\nbar\nbash\n1\n2"
 	
