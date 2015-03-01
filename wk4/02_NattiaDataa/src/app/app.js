@@ -64,7 +64,7 @@ function MovieController($scope){
 			name: 'My Neighbor Totoro',
 			link: 'http://www.imdb.com/title/tt0096283',
 			release: 1988,
-			description: 'When two girls move to the country to be near their ailing mother, they have adventures with the wonderous forest spirits who live nearby.'
+			description: 'When two girls move to the country to be near their ailing mother, they have adventures with the wonderous forest spirits who live nearby.',
 			director: 'Hayao Miyazaki',
 			roles: [
 				{

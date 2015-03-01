@@ -4,6 +4,6 @@
   "authors": [],
   "license": "MIT",
   "dependencies": {
-    "angular": "~1.3.13"
+    "angular": "1.2"
   }
 }

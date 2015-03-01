@@ -1,0 +1,9 @@
+{
+  "name": "weso",
+  "version": "0.0.0",
+  "authors": [],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
