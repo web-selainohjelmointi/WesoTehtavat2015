@@ -1,0 +1,1 @@
+var HelloApp = angular.module('HelloApp', ['firebase']);

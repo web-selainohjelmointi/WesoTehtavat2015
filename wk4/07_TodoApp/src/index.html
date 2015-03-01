@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Muistilista</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/todo.css">
+    </head>
+    <body ng-app="TodoApp">
+        <div ng-controller="TodoController">
+            <h1>Muistilista</h1>
+            <div id="todo-container">
+                <div id="add-todo-container">
+                  <input type="text" placeholder="Uusi tehtävä">
+                  <button>Lisää tehtävä</button>
+                  <button id="mark-todos-done">Merkkaa kaikki tehdyiksi</button>
+                  <button id="remove-todos">Poista kaikki</button>
+                </div>
+
+                <div class="todo">
+                  <input type="text" value="1" class="todo-priority">
+                  <label>
+                    <input type="checkbox" checked> <span class="todo-done">Kirjoita Angular-materiaalia</span>
+                  </label>
+                  <button class="remove-todo">Poista</button>
+                </div>
+
+                <div class="todo">
+                  <input type="text" value="2" class="todo-priority">
+                  <label>
+                    <input type="checkbox"> <span>Ruoki koira</span>
+                  </label>
+                  <button class="remove-todo">Poista</button>
+                </div>
+
+                <div class="todo">
+                  <input type="text" value="3" class="todo-priority">
+                  <label>
+                    <input type="checkbox"> <span>Käy kaupassa</span>
+                  </label>
+                  <button class="remove-todo">Poista</button>
+                </div>
+
+                <div id="todo-footer">
+                  1 tehtävä tehty, 2 tehtävää jäljellä
+                </div>
+            </div>
+        </div>
+        
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/controllers/todo_controller.js"></script>
+    </body>
+</html>

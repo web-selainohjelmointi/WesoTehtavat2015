@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Elokuvafiltteri</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app>
+        <div ng-controller="MovieController">
+            <h1>Elokuvat</h1>
+        	<ul>
+                <li ng-repeat="movie in movies">
+                    <strong>{{movie.name}} ({{movie.published}})</strong>, director: {{movie.director}}
+                </li>
+            </ul>
+        	<h2>Filtterit</h2>
+        	<p>
+        		<label>Nimi</label>
+        		<input type="text">
+        	</p>
+        	<p>
+        		<label>Julkaisuvuosi</label>
+        		<input type="text">
+        	</p>
+            <p>
+                <label>Ohjaaja</label>
+                <input type="text">
+            </p>
+        </div>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>

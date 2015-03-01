@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Laskin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app>
+        <div ng-controller="CalculatorController">
+            <h1>Laskin</h1>
+            <p>
+                <input type="text" placeholder="Ensimmäinen luku">
+                <input type="text" placeholder="Toinen luku">
+            </p>
+            <p>
+                Tulos:
+            </p>
+            <p>
+                <button>Summaa</button>
+                <button>Vähennä</button>
+                <button>Kerro</button>
+                <button>Jaa</button>
+            </p>
+        </div>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>

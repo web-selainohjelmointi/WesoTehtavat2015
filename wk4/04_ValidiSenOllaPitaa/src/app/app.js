@@ -1,0 +1,1 @@
+var ValidatorApp = angular.module('ValidatorApp', ['validation.match']);

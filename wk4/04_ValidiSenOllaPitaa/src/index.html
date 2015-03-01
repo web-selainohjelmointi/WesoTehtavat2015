@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Validi sen olla pitää!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!-- Älä muokkaa body-tagia! -->
+    <body ng-app="ValidatorApp">
+        <h1>Rekisteröitymislomake</h1>
+        <form>
+            <p>
+                <label>Käyttäjätunnus</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Salasana</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Salasana uudelleen</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Etunimi</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Sukunimi</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Henkilötunnus</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>
+                    Hyväksyn käyttöehdot
+                    <input type="checkbox">
+                </label>
+            </p>
+            <p>
+                <button type="submit">Lähetä</button>
+            </p>
+        </form>
+        
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-validation-match/dist/angular-input-match.min.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>
