@@ -17,4 +17,4 @@ run-test:
 	@echo "[{\"methodName\":\"genericTest\",\"pointNames\": [\"30\"], \"status\": \"PASSED\", \"message\": \"\"}]" > test_output.txt
 	
 get-points:
-	@echo "foo\nbar\nbash\30\n"
+	@echo "foo\nbar\nbash\n30\n"
