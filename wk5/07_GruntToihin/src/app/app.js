@@ -1,1 +1,0 @@
-var QuizApp = angular.module('QuizApp', []);
