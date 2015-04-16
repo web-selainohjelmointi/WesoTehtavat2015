@@ -1,0 +1,1 @@
+var ChatApp = angular.module('ChatApp', ['firebase']);

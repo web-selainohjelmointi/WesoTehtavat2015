@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Kuin kissat ja koirat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app="CatDogApp">
+        <div ng-view></div>
+
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/services/cat_service.js"></script>
+        <script src="app/services/dog_service.js"></script>
+        <script src="app/controllers/list_controller.js"></script>
+        <script src="app/controllers/dog_controller.js"></script>
+        <script src="app/controllers/cat_controller.js"></script>
+    </body>
+</html>
