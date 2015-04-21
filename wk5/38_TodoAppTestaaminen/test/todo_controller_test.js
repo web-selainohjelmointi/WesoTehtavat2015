@@ -33,10 +33,6 @@ describe('TodoController', function(){
 		expect(true).toBe(false);
 	});
 
-	it('should be able to remove a todo by calling the removeTodo function', function(){
-		expect(true).toBe(false);
-	});
-
 	it('should be able to remove all todos by calling the removeAllTodos function', function(){
 		expect(true).toBe(false);
 	});
@@ -51,7 +47,7 @@ describe('TodoController', function(){
 
 	it('should have correct amount of todos done (the value of the todosDone should be correct)', function(){
 		/*
-		* Huom! Testeissä watch-funktio ei huomaa muutosta muuttujassa, ellet kutsu sen 
+		* Huom! Testeissä watch-funktio ei huomaa muutosta muuttujassa, ellet kutsu sen
 		* asettamisen jälkeen scope.$apply()
 		*/
 
