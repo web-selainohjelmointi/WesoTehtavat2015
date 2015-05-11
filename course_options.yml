@@ -1,3 +1,6 @@
 # spreadsheet_key: "0ArQghZeM1C8wdEd4RjYyN0lkalh3U21iVmo4NVY4c0E-deletethisitsbroken"
 paste_visibility: 'no-tests-public'
 hidden: false
+courses:
+  k2015-weso:
+    hidden_if_registered_after: 2015-05-10
