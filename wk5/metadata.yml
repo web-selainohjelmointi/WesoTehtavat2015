@@ -1,3 +1,10 @@
 # gdocs_sheet: "5"
 # hidden: true
-deadline: 23.4.2015 23:59
+
+courses:
+  k2015-weso:
+    deadline: 23.4.2015 23:59
+  kesa2015-weso:
+    unlocked_after: 90% of wk4
+    deadline: 30.8.2015 23:59
+

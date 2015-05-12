@@ -1,2 +1,7 @@
 # gdocs_sheet: "1"
-deadline: 22.3.2015 23:59
+
+courses:
+  k2015-weso:
+    deadline: 22.3.2015 23:59
+  kesa2015-weso:
+    deadline: 30.8.2015 23:59

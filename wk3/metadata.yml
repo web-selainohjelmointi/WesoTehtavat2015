@@ -1,2 +1,9 @@
 # gdocs_sheet: "3"
-deadline: 9.4.2015 23:59
+
+courses:
+  k2015-weso:
+    deadline: 9.4.2015 23:59
+  kesa2015-weso:
+    unlocked_after: 90% of wk2
+    deadline: 30.8.2015 23:59
+
