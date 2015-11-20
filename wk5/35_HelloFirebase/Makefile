@@ -14,7 +14,7 @@ clean:
 run-main:
 	
 run-test:
-	@echo "[{\"methodName\":\"genericTest\",\"pointNames\": [\"45\"], \"status\": \"PASSED\", \"message\": \"\"}]" > test_output.txt
+	@echo "[{\"methodName\":\"genericTest\",\"pointNames\": [\"35\"], \"status\": \"PASSED\", \"message\": \"\"}]" > test_output.txt
 	
 get-points:
-	@echo "foo\nbar\nbash\n45\n"
+	@echo "foo\nbar\nbash\n35\n"
