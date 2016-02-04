@@ -6,7 +6,80 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-      <p>Konekokeen tehtävänanto löytyy osoitteesta <a href="https://docs.google.com/document/d/1YcGiYJ6PJOSy-m7BrAg8H2VjzCMZxT6M-zy2jignc-I/edit" target="_blank">https://docs.google.com/document/d/1YcGiYJ6PJOSy-m7BrAg8H2VjzCMZxT6M-zy2jignc-I/edit</a></p>
+        <h1>Konekokeen tehtävä: Reseptivihko</h1>
+
+        <p>Konekokeen tehtävänä on toteuttaa reseptivihko AngularJS:n avulla.</p>
+
+        <p>Reseptivihko sisältää useita reseptejä, joita voi lisätä ja poistaa. 
+            Jokaiseen reseptiin liittyy nimi, tarvitut raaka-aineet (esim. voi) ja
+            reseptin askeleet (esim. "ota voi jääkaapista").</p>
+
+        <p>Kun reseptivihkoon lisätään uutta reseptiä, käyttäjä syöttää ensin reseptin nimen, 
+            sitten tarvitut raaka-aineet yksitellen, ja lopulta askeleet. Raaka-aineita voi 
+            olla ääretön määrä, joten uusia raaka-ainekenttiä tulee voida luoda dynaamisesti. 
+            Sama pätee myös askeleiden lisäämisessä, eli askeleita voi olla rajoittamaton määrä, 
+            joten askelkenttiä tulee voida lisätä dynaamisesti.</p>
+
+        <p>Raaka-aineiden ei tarvitse olla järjestyksessä, mutta askeleiden tulee 
+            säilyä järjestyksessä.</p>
+
+        <p>Sovelluksessa tulee olla myös reseptin nimen ja käytettyjen raaka-aineiden 
+            perusteella tapahtuva hakutoiminnallisuus. 
+            Haun tulee palauttaa lista resepteistä, joihin annetut hakuehdot sopivat.</p>
+
+        <p>Lopulta, sovellus tulee voida tallentaa pysyväismuistiin.</p>
+        
+        <h2>Huom! Kirjoita koetehtävän palautuksen yhteydessä sovelluksen etusivulle 
+            lyhyt yhteenveto niistä toiminnoista, jotka toteutit konekokeessa.</h2>
+
+
+        <h2>Pisteytys</h2>
+
+        <ol>
+            <li>Reseptin lisäystoiminnallisuus (25p):
+                <ul>
+                    <li>Voi määritellä reseptin nimen</li>
+                    <li>Voi säilöä reseptin</li>
+                    <li>Reseptit listataan</li>
+                </ul>
+            </li>
+            <li>Raaka-aineiden lisääminen reseptin lisäämisen yhteydessä (25p):
+                <ul>
+                    <li>Raaka-aineita lisätessä uusia raaka-aineita voi lisätä dynaamisesti, eli raaka-aineiden määrällä ei ole ylärajaa</li>
+                    <li>Lisätyt raaka-aineet liittyvät lisättävään reseptiin</li>
+                </ul>
+            </li>
+            <li>Askelten lisääminen reseptin lisäämisen yhteydessä (25p):
+                <ul>
+                    <li>Reseptiin liittyviä askelia voi lisätä dynaamisesti, eli askelten määrällä ei ole ylärajaa</li>
+                    <li>Askeleet säilyvät käyttäjän antamassa järjestyksessä</li>
+                </ul>
+            </li>
+            <li>Reseptien hakeminen nimen perusteella (25p):
+                <ul>
+                    <li>Reseptejä voi hakea nimen perusteella</li>
+                    <li>Hakutuloksia näytetään käyttäjälle sitä mukaa kun hakua kirjoitetaan</li>
+                </ul>
+            </li>
+            <li>Reseptien hakeminen raaka-aineiden perusteella (25p):
+                <ul>
+                    <li>Reseptejä voi hakea yhden tai useamman raaka-aineen perusteella</li>
+                    <li>Hakutuloksia näytetään käyttäjälle sitä mukaa kun hakua kirjoitetaan</li>
+                </ul>
+            </li>
+            <li>Reseptejä voi poistaa (25p):</li>
+            <li>Sovellus on käytettävä (25p):
+                <ul>
+                    <li>Sovelluksessa on kuvattuna mitä mikin oleellinen laatikko tai elementti tekee, eikä käyttäjä tarvitse erillistä opasta sivun käyttämiseen</li>
+                    <li>Sovelluksen oleelliset toiminnot ovat heti sovelluksen etusivulla käytettävissä</li>
+                </ul>
+            </li>
+            <li>Reseptit tallennetaan Firebaseen (25p):
+                <ul>
+                    <li>Reseptit tulee tallentaa Firebaseen tai muuhun vastaavaan palveluun, joka tarjoaa pysyväismuistin selainsovelluksille</li>
+                </ul>
+            </li>
+        </ol>
 
     </body>
 </html>
